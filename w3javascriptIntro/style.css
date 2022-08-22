@@ -1,0 +1,15 @@
+#header{
+    transition: height 5s, width 5s, transform 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    height: 100px;
+    width: 50%;
+}
+#trans{
+    height: 100px;
+    width: 30%;
+    background: yellow;
+    border: 2px solid red;
+    transition: transform 5s;
+    transition-timing-function: ease-out;
+}
